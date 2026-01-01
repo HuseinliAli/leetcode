@@ -13,6 +13,7 @@
 //after method:
 //1st step: ['o']['e']['l']['l']['h']  => 'o' & 'h' swapped
 //2nd step: ['o']['l']['l']['e']['h'] => 'e' & 'l' swapped
+
 var reverseString = function(s) {
     for(let i = 0; i < s.length/2; i++){
         let temp = s[i];
